@@ -27,6 +27,7 @@ references: # OPTIONAL <list> - reference to attacks, articals, blogs etc...
   - https://pytorch.org/blog/compromised-nightly-dependency/
 
 metadata: 
-    state: draft
+    state: release
+    version: 0.1
 
   
