@@ -24,4 +24,3 @@ jobs:
         with:
           name: matrix
           path: matrix.json
-      - name: Upload artifact
