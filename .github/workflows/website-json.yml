@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Create json from yamls
+name: Actions Create json from yaml
 
 # Controls when the workflow will run
 on:
