@@ -27,6 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: ls -al
+        run: python tech_to_json.py content/oscar/techniques
 
     
