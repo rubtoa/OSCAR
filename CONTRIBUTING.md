@@ -1,4 +1,3 @@
-
 # Contributing to OSC&R
 
   
@@ -10,3 +9,6 @@ The process is straight-forward.
  2. We are using Github's Issues, Projects and Discussions to manage our work
  3. Pull requests should be done against the "main" branch
  4. Pull requests must have an issue referenced. So please open a new one or assign an issues from the issue board
+[Slack]: https://osc-r.slack.com/
+[coc]: https://github.com/pbom-dev/OSCAR/CODE_OF_CONDUCT.md
+[github]: https://github.com/pbom-dev/OSCAR/
