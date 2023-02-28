@@ -30,6 +30,6 @@ jobs:
         run: python ./helpers/tech_to_json.py content/oscar/techniques
         
       - uses: actions/upload-artifact@v3
-      with:
-        name: matrix
-        path: matrix.json
+        with:
+          name: matrix
+          path: matrix.json
