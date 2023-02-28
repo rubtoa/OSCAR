@@ -2,6 +2,7 @@ import sys
 import logging
 import glob
 import yaml
+import json
 
 ### setup logging to stdout
 logging.basicConfig(level=logging.INFO)
@@ -36,6 +37,8 @@ def main(path):
                 "subTechniuqesAmount": len([] if y['subtechinques']==[None] else y['subtechinques'])}
             j[y['tactic']]['items'].append(item)
     
-    print(j)
+    with open('matrix.json', 'w') as f:
+        f.write(json.dumps(j, indent=4))
+        
 if __name__=='__main__':
     main(sys.argv[1])
