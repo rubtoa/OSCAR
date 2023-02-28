@@ -38,8 +38,4 @@ def main(path):
     
     print(j)
 if __name__=='__main__':
-    path = '/Users/ronen/worksapce/OSCAR-fork/OSCAR/content/oscar/techniques'
-    if len(sys.argv) < 2:
-        path = '/Users/ronen/worksapce/OSCAR-fork/OSCAR/content/oscar/techniques'
-
-    main(path)
+    main(sys.argv[1])
